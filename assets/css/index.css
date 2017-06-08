@@ -1,4 +1,6 @@
 /* External Libraries */
 @import 'normalize.css';
 
+@import '_colors.css';
+
 @import './calendar.css';
