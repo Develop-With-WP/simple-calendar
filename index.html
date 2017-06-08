@@ -6,6 +6,149 @@
     <link rel="stylesheet" id="dwwp-css" href="./dist/frontend.bundle.css" type="text/css" media="all">
   </head>
   <body>
+    <div class="calendar">
+      <div class="calendar-top">
+        <div class="calendar-top-button left">
+          <svg viewBox="0 0 16 10">
+              <g id="Symbols" stroke="none" stroke-width="1">
+                  <g id="Icon/Dropdown" transform="translate(0.000000, -5.000000)">
+                      <polygon id="ICon/Dropdown" points="16 6.24444444 14.7555556 5 8 11.7555556 1.24444444 5 2.98571493e-13 6.24444444 6.75555556 13 8 14.2444444 9.24444444 13"></polygon>
+                  </g>
+              </g>
+          </svg>
+        </div>
+        <div class="calendar-top-info">
+          <label for="calendar-top-month">Month</label>
+          <select name="calendar-top-month" id="calendar-top-month">
+            <option value="august">August</option>
+            <option value="september">September</option>
+          </select>
+          <label for="calendar-top-year">Year</label>
+          <select name="calendar-top-year" id="calendar-top-year">
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+          </select>
+        </div>
+        <div class="calendar-top-button right">
+          <svg viewBox="0 0 16 10">
+              <g id="Symbols" stroke="none" stroke-width="1">
+                  <g id="Icon/Dropdown" transform="translate(0.000000, -5.000000)">
+                      <polygon id="ICon/Dropdown" points="16 6.24444444 14.7555556 5 8 11.7555556 1.24444444 5 2.98571493e-13 6.24444444 6.75555556 13 8 14.2444444 9.24444444 13"></polygon>
+                  </g>
+              </g>
+          </svg>
+        </div>
+      </div>
+      <div class="calendar-body">
+        <div class="calenday-body-heading">
+          <ul>
+            <li>su</li>
+            <li>m</li>
+            <li>tu</li>
+            <li>w</li>
+            <li>th</li>
+            <li>f</li>
+            <li>sa</li>
+          </ul>
+        </div>
+        <div class="calendar-body-dates">
+          <label for="calendar-july-30">30</label>
+          <input type="radio" id="calendar-date-30" name="calendar-date" value="30">
+          <label for="calendar-july-31">31</label>
+          <input type="radio" id="calendar-date-31" name="calendar-date" value="31">
+          <label for="calendar-august-1">1</label>
+          <input type="radio" id="calendar-date-1" name="calendar-date" value="1">
+          <label for="calendar-august-2">2</label>
+          <input type="radio" id="calendar-date-2" name="calendar-date" value="2">
+          <label for="calendar-august-4">4</label>
+          <input type="radio" id="calendar-date-4" name="calendar-date" value="4">
+          <label for="calendar-august-5">5</label>
+          <input type="radio" id="calendar-date-5" name="calendar-date" value="5">
+          <label for="calendar-august-6">6</label>
+          <input type="radio" id="calendar-date-6" name="calendar-date" value="6">
+          <label for="calendar-august-7">7</label>
+          <input type="radio" id="calendar-date-7" name="calendar-date" value="7">
+          <label for="calendar-august-8">8</label>
+          <input type="radio" id="calendar-date-8" name="calendar-date" value="8">
+          <label for="calendar-august-9">9</label>
+          <input type="radio" id="calendar-date-9" name="calendar-date" value="9">
+          <label for="calendar-august-10">10</label>
+          <input type="radio" id="calendar-date-10" name="calendar-date" value="10">
+          <label for="calendar-august-11">11</label>
+          <input type="radio" id="calendar-date-11" name="calendar-date" value="11">
+          <label for="calendar-august-12">12</label>
+          <input type="radio" id="calendar-date-12" name="calendar-date" value="12">
+          <label for="calendar-august-13">13</label>
+          <input type="radio" id="calendar-date-13" name="calendar-date" value="13">
+          <label for="calendar-august-14">14</label>
+          <input type="radio" id="calendar-date-14" name="calendar-date" value="14">
+          <label for="calendar-august-15">15</label>
+          <input type="radio" id="calendar-date-15" name="calendar-date" value="15">
+          <label for="calendar-august-16">16</label>
+          <input type="radio" id="calendar-date-16" name="calendar-date" value="16">
+          <label for="calendar-august-17">17</label>
+          <input type="radio" id="calendar-date-17" name="calendar-date" value="17">
+          <label for="calendar-august-18">18</label>
+          <input type="radio" id="calendar-date-18" name="calendar-date" value="18">
+          <label for="calendar-august-19">19</label>
+          <input type="radio" id="calendar-date-19" name="calendar-date" value="19">
+          <label for="calendar-august-20">20</label>
+          <input type="radio" id="calendar-date-20" name="calendar-date" value="20">
+          <label for="calendar-august-21">21</label>
+          <input type="radio" id="calendar-date-21" name="calendar-date" value="21">
+          <label for="calendar-august-22">22</label>
+          <input type="radio" id="calendar-date-22" name="calendar-date" value="22">
+          <label for="calendar-august-23">23</label>
+          <input type="radio" id="calendar-date-23" name="calendar-date" value="23">
+          <label for="calendar-august-24">24</label>
+          <input type="radio" id="calendar-date-24" name="calendar-date" value="24">
+          <label for="calendar-august-25">25</label>
+          <input type="radio" id="calendar-date-25" name="calendar-date" value="25">
+          <label for="calendar-august-26">26</label>
+          <input type="radio" id="calendar-date-26" name="calendar-date" value="26">
+          <label for="calendar-august-27">27</label>
+          <input type="radio" id="calendar-date-27" name="calendar-date" value="27">
+          <label for="calendar-august-28">28</label>
+          <input type="radio" id="calendar-date-28" name="calendar-date" value="28">
+          <label for="calendar-august-29">29</label>
+          <input type="radio" id="calendar-date-29" name="calendar-date" value="29">
+          <label for="calendar-august-30">30</label>
+          <input type="radio" id="calendar-date-30" name="calendar-date" value="30">
+          <label for="calendar-august-31">13</label>
+          <input type="radio" id="calendar-date-31" name="calendar-date" value="31">
+          <label for="calendar-september-1">1</label>
+          <input type="radio" id="calendar-date-1" name="calendar-date" value="1">
+          <label for="calendar-september-2">2</label>
+          <input type="radio" id="calendar-date-2" name="calendar-date" value="2">
+        </div>
+      </div>
+      <div class="calendar-bottom">
+        <button class="calendar-buttom-btn">
+          <svg viewBox="0 0 16 16">
+              <g id="Symbols" stroke="none" stroke-width="1">
+                  <g id="Icon/Cancel">
+                      <g id="Group">
+                          <path d="M14.25,7.78683181 C14.25,4.33767511 11.4518959,1.54139505 8,1.54139505 C4.54810412,1.54139505 1.75,4.33767511 1.75,7.78683181 C1.75,11.2359885 4.54810412,14.0322686 8,14.0322686 C11.4518959,14.0322686 14.25,11.2359885 14.25,7.78683181 Z M15.75,7.78683181 C15.75,12.0646347 12.2801041,15.5322686 8,15.5322686 C3.71989588,15.5322686 0.25,12.0646347 0.25,7.78683181 C0.25,3.50902894 3.71989588,0.0413950456 8,0.0413950456 C12.2801041,0.0413950456 15.75,3.50902894 15.75,7.78683181 Z M6.05574286,6.90415662 L8.88374286,9.73031308 C9.17673156,10.0231108 9.65160527,10.0229559 9.94440297,9.72996725 C10.2372007,9.43697855 10.2370458,8.96210484 9.94405714,8.66930713 L7.11605714,5.84315068 C6.82306844,5.55035297 6.34819473,5.55050781 6.05539703,5.84349651 C5.76259932,6.13648521 5.76275416,6.61135892 6.05574286,6.90415662 Z M8.88394286,5.84315068 L6.05594286,8.66930713 C5.76295416,8.96210484 5.76279932,9.43697855 6.05559703,9.72996725 C6.34839473,10.0229559 6.82326844,10.0231108 7.11625714,9.73031308 L9.94425714,6.90415662 C10.2372458,6.61135892 10.2374007,6.13648521 9.94460297,5.84349651 C9.65180527,5.55050781 9.17693156,5.55035297 8.88394286,5.84315068 Z" id="Combined-Shape"></path>
+                      </g>
+                  </g>
+              </g>
+          </svg>
+          <span>cancel</span>
+        </button>
+        <button class="calendar-buttom-btn">
+          <svg viewBox="0 0 16 16">
+              <g id="Symbols" stroke="none" stroke-width="1">
+                  <g id="Icon/Save">
+                      <g id="Group">
+                          <path d="M14.25,7.78683181 C14.25,4.33767511 11.4518959,1.54139505 8,1.54139505 C4.54810412,1.54139505 1.75,4.33767511 1.75,7.78683181 C1.75,11.2359885 4.54810412,14.0322686 8,14.0322686 C11.4518959,14.0322686 14.25,11.2359885 14.25,7.78683181 Z M15.75,7.78683181 C15.75,12.0646347 12.2801041,15.5322686 8,15.5322686 C3.71989588,15.5322686 0.25,12.0646347 0.25,7.78683181 C0.25,3.50902894 3.71989588,0.0413950456 8,0.0413950456 C12.2801041,0.0413950456 15.75,3.50902894 15.75,7.78683181 Z M5.53015714,7.25632884 C5.23716844,6.96353113 4.76229473,6.96368597 4.46949703,7.25667467 C4.17669932,7.54966337 4.17685416,8.02453708 4.46984286,8.31733478 L6.46984286,10.316031 C6.73371912,10.5797353 7.15129752,10.6094089 7.44981219,10.3856688 L11.4498122,7.38762451 C11.7812608,7.1392001 11.8485652,6.66912013 11.6001408,6.33767151 C11.3517164,6.0062229 10.8816364,5.93891848 10.5501878,6.18734289 L7.07035128,8.79551894 L5.53015714,7.25632884 Z" id="Combined-Shape"></path>
+                      </g>
+                  </g>
+              </g>
+          </svg>
+          <span>save</span>
+        </button>
+      </div>
+    </div>
     <script type="text/javascript" src="./dist/frontend.bundle.js"></script>
   </body>
 </html>
