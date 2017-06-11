@@ -20,15 +20,26 @@
         </div>
         <div class="calendar-top-info">
           <label for="calendar-top-month">Month</label>
-          <select name="calendar-top-month" id="calendar-top-month">
-            <option value="august">August</option>
-            <option value="september">September</option>
-          </select>
+          <div class="calendar-top-dropdown">
+            <select name="calendar-top-month" id="calendar-top-month">
+              <option value="0">January</option>
+              <option value="1">Febuary</option>
+              <option value="2">March</option>
+              <option value="3">April</option>
+              <option value="4">May</option>
+              <option value="5">June</option>
+              <option value="6">July</option>
+              <option value="7">August</option>
+              <option value="8">September</option>
+              <option value="9">October</option>
+              <option value="10">November</option>
+              <option value="11">December</option>
+            </select>
+          </div>
           <label for="calendar-top-year">Year</label>
-          <select name="calendar-top-year" id="calendar-top-year">
-            <option value="2017">2017</option>
-            <option value="2018">2018</option>
-          </select>
+          <div class="calendar-top-dropdown">
+            <select name="calendar-top-year" id="calendar-top-year"></select>
+          </div>
         </div>
         <div class="calendar-top-button right">
           <svg viewBox="0 0 16 10">
@@ -53,76 +64,6 @@
           </ul>
         </div>
         <div class="calendar-body-dates">
-          <input type="radio" id="calendar-july-30" name="calendar-date" value="30">
-          <label for="calendar-july-30" class="gray">30</label>
-          <input type="radio" id="calendar-july-31" name="calendar-date" value="31">
-          <label for="calendar-july-31" class="gray">31</label>
-          <input type="radio" id="calendar-august-1" name="calendar-date" value="1">
-          <label for="calendar-august-1">1</label>
-          <input type="radio" id="calendar-august-2" name="calendar-date" value="2">
-          <label for="calendar-august-2">2</label>
-          <input type="radio" id="calendar-august-3" name="calendar-date" value="2">
-          <label for="calendar-august-3">3</label>
-          <input type="radio" id="calendar-august-4" name="calendar-date" value="4">
-          <label for="calendar-august-4">4</label>
-          <input type="radio" id="calendar-august-5" name="calendar-date" value="5">
-          <label for="calendar-august-5">5</label>
-          <input type="radio" id="calendar-august-6" name="calendar-date" value="6">
-          <label for="calendar-august-6">6</label>
-          <input type="radio" id="calendar-august-7" name="calendar-date" value="7">
-          <label for="calendar-august-7">7</label>
-          <input type="radio" id="calendar-august-8" name="calendar-date" value="8">
-          <label for="calendar-august-8">8</label>
-          <input type="radio" id="calendar-august-9" name="calendar-date" value="9">
-          <label for="calendar-august-9">9</label>
-          <input type="radio" id="calendar-august-10" name="calendar-date" value="10">
-          <label for="calendar-august-10">10</label>
-          <input type="radio" id="calendar-august-11" name="calendar-date" value="11">
-          <label for="calendar-august-11">11</label>
-          <input type="radio" id="calendar-august-12" name="calendar-date" value="12">
-          <label for="calendar-august-12">12</label>
-          <input type="radio" id="calendar-august-13" name="calendar-date" value="13">
-          <label for="calendar-august-13">13</label>
-          <input type="radio" id="calendar-august-14" name="calendar-date" value="14">
-          <label for="calendar-august-14">14</label>
-          <input type="radio" id="calendar-august-15" name="calendar-date" value="15">
-          <label for="calendar-august-15">15</label>
-          <input type="radio" id="calendar-august-16" name="calendar-date" value="16">
-          <label for="calendar-august-16">16</label>
-          <input type="radio" id="calendar-august-17" name="calendar-date" value="17">
-          <label for="calendar-august-17">17</label>
-          <input type="radio" id="calendar-august-18" name="calendar-date" value="18">
-          <label for="calendar-august-18">18</label>
-          <input type="radio" id="calendar-august-19" name="calendar-date" value="19">
-          <label for="calendar-august-19">19</label>
-          <input type="radio" id="calendar-august-20" name="calendar-date" value="20">
-          <label for="calendar-august-20">20</label>
-          <input type="radio" id="calendar-august-21" name="calendar-date" value="21">
-          <label for="calendar-august-21">21</label>
-          <input type="radio" id="calendar-august-22" name="calendar-date" value="22">
-          <label for="calendar-august-22">22</label>
-          <input type="radio" id="calendar-august-23" name="calendar-date" value="23">
-          <label for="calendar-august-23">23</label>
-          <input type="radio" id="calendar-august-24" name="calendar-date" value="24">
-          <label for="calendar-august-24">24</label>
-          <input type="radio" id="calendar-august-25" name="calendar-date" value="25">
-          <label for="calendar-august-25">25</label>
-          <input type="radio" id="calendar-august-26" name="calendar-date" value="26">
-          <label for="calendar-august-26">26</label>
-          <input type="radio" id="calendar-august-27" name="calendar-date" value="27">
-          <label for="calendar-august-27">27</label>
-          <input type="radio" id="calendar-august-28" name="calendar-date" value="28">
-          <label for="calendar-august-28">28</label>
-          <input type="radio" id="calendar-august-29" name="calendar-date" value="29">
-          <label for="calendar-august-29">29</label>
-          <input type="radio" id="calendar-august-30" name="calendar-date" value="30">
-          <label for="calendar-august-30">30</label>
-          <input type="radio" id="calendar-august-31" name="calendar-date" value="31">
-          <label for="calendar-august-31">31</label>
-          <input type="radio" id="calendar-september-1" name="calendar-date" value="1">
-          <label for="calendar-september-1" class="gray">1</label>
-          <input type="radio" id="calendar-september-2" name="calendar-date" value="2">
-          <label for="calendar-september-2" class="gray">2</label>
         </div>
       </div>
       <div class="calendar-bottom">
