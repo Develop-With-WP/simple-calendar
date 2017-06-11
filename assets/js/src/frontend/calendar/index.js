@@ -31,16 +31,3 @@ export default function() {
     info = updateCalendar( new Date( info.year, info.month + 1 ) );
   } );
 }
-
-
-
-//Get the current Month
-//Find what day of the week the first day of that month starts
-//Loop through the days of the month and output the radio buttons
-//Fill in the dates before and after the months days start and end.
-
-//Make the left and right arrows move month to month
-//Make the month and year selects update the currently viewed month.
-
-//Make the cancel button close the calendar clearing all data.
-//Make the save button close and capture the selected date, and clear all data.
